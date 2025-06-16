@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAYESH KOHAKADE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44e5794320.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo3.png" class="logo">
+            <ul>
+            <li><a href="#" id="touch1">Home</a></li>
+            <li><a href="#" id="touch2">About</a></li>
+            <li><a href="#" id="touch3">Portfolio</a></li>
+            <li><a href="#" id="touch4">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#" id="touch5">Education</a></li>
+            </ul>
+        </nav>
+        <div class="background">
+
+        </div>
+        <div class="header-text">
+            <p>JAVA Devoloper</p>
+            <h1>Hi, I'm <span>Jayesh</span><br><h2>From Sangamner | Pune</h2></h1>
+                <a href="image/Jayesh Kohakade.pdf" download class="btn btn2">Downlode Rsume</a>
+        </div>
+        </div>
+    </div>
+
+<!-----------about------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A highly motivated and detail-oriented BCA (Science) graduate with a passion for                       
+development. Seeking an entry-level position in a dynamic organization to apply 
+my skills, learn new technologies, and contribute effectively to the team’s success.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                            <li><span>BCA(Science)</span><br><h6>May-2025 CGPA:8.15</h6></li>
+                            <li><span>HSC</span><br><h6>March-2022 Percentage:48.67%</h6></li>
+                            <li><span>SSC</span><br><h6>May-2020 Percentage:80.20%</h6></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents"id="skills">
+                            <ul>
+                            <li><span>JAVA Developemt</span><br><h6>JAVA Developemt</h6></li>
+                            <li><span>Web Developemt</span><br><h6>Web App Developemt</h6></li>
+                            <li><span>React.js</span><br><h6>React.js Developemt</h6></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                            <li><span>Fresher</span><br><h6>No Experience</h6></li>
+                            
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div >
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work1.png" alt="work-img" >
+                    <div class="layer">
+                        <h3>Learning Portal</h3>
+                        <p>Developed an online platform for student to access courses. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.png" alt="work-img" >
+                    <div class="layer">
+                        <h3>Bus Pass Portal</h3>
+                        <p>Developed an online platform for to access Bus Pass </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work3.png" alt="work-img" >
+                    <div class="layer">
+                        <h3>Rsult Portal</h3>
+                        <p>Developed an online platform for student to See result. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="cont">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>jayeshkohakade5024@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 7767966932</p>
+                    <div class="social-links">
+                        <a href="nkedin.com/in/jayesh-kohakade-635110240/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jayeshkohakade"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/jay_kohakade/"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="image/Jayesh Kohakade.pdf" download class="btn btn2">Downlode Rsume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---footer section--->
+   
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> Jayesh Kohakade. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+    <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+
+         document.getElementById("year").textContent = new Date().getFullYear();
+
+
+ document.getElementById("touch1").addEventListener("click", function () {
+      document.getElementById("header").scrollIntoView({ behavior: "smooth" });
+    });
+
+          document.getElementById("touch2").addEventListener("click", function () {
+      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    });
+
+         document.getElementById("touch3").addEventListener("click", function () {
+      document.getElementById("portfolio").scrollIntoView({ behavior: "smooth" });
+    });
+
+
+     document.getElementById("touch4").addEventListener("click", function () {
+      document.getElementById("cont").scrollIntoView({ behavior: "smooth" });
+    });
+
+
+     document.getElementById("touch5").addEventListener("click", function () {
+      document.getElementById("education").scrollIntoView({ behavior: "smooth" });
+    });
+
+
+    </script>
+</body>
+</html>
